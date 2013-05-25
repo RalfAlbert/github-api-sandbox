@@ -37,7 +37,8 @@ class Sandboxer {
 
 	public function output(){
 		echo '<div class="wrap">';
-		echo 'The GitHub Installer test plugin was successfully installed.';
+		echo '<p>The GitHub Installer test plugin was successfully installed.</p>';
+		echo '<p>This should be the <strong>stable</strong> branch</p>';
 		echo '</div>';
 	}
 }
